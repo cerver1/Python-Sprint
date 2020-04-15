@@ -1,6 +1,6 @@
-# print python version
-
 import sys
+
+# print python version
 
 version = sys.version
 version_info = sys.version_info

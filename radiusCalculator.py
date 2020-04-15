@@ -1,9 +1,15 @@
 import math
 
-user_radius = input("Please enter a radius: ")
+# radius calculator
 
-converted = int(user_radius)
+def radiusCalculator():
 
-area = (math.pi) * (converted**2)
+    user_radius = input("Please enter a radius: ")
 
-print(area)
+    converted = int(user_radius)
+
+    area = (math.pi) * (converted**2)
+
+    print(area)
+
+radiusCalculator()
