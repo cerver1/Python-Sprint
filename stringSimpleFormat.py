@@ -1,5 +1,5 @@
 
-#Newline
+# new line manipulation
 
 print("Twinkle, twinkle, little star,") 
 print("\tHow I wonder what you are!") 
