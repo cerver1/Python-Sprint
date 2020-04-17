@@ -13,7 +13,7 @@ def triSum():
 
     sum = num_1 + num_2 + num_3
 
-    if num_1 == num_2 and num_1 == num_3:
+    if num_1 == num_2 == num_3:
         print(sum * 3)
     else:
         print(sum)
