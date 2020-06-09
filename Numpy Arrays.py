@@ -12,15 +12,11 @@ x = np.zeros((5, 5))
 
 o = np.linspace(0, 10, 30)
 
-
 eye = np.eye(4)
-
 
 r = np.random.rand(5, 4)
 
-
 rn = np.random.randn(5, 4)
-
 
 r_int = np.random.randint(1, 100, 10)
 # print(r_int)
@@ -42,13 +38,11 @@ arr_copy = arr.copy()
 # grabs a specific row
 my_matrix[1]
 
-my_matrix[:2,1:]
-
-
+my_matrix[:2, 1:]
 
 # indexing out specific grids in your matrix / list of lists
 # :2 means grab everything at the start up until 2 | 1: means starting at 1 grab till the end
-my_matrix[:2,1:]
+my_matrix[:2, 1:]
 
 # CONDITIONAL SELECTION
 # example
