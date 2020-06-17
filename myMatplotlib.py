@@ -59,8 +59,18 @@ ax.plot(x,y)
 fig = plt.figure()
 
 ax = fig.add_axes([0,0,1,1])
-ax.plot(x,x**2, label = 'X Squared')
-ax.plot(x,x**3, label = 'X Cubed')
+# ax.plot(x,y,color ='#FF8C00') # RGB Hex Code custom colors
+# ax.plot(x,y,color ='#FF8C00', linewidth= 20) # line thickness
+#ax.plot(x,y,color ='#FF8C00', linewidth= 3, alpha= 0.5) # line transparency linewidth could also be typed as lw
+# ax.plot(x,y,color ='#FF8C00', lw= 3, linestyle='-') # line style
+# ax.plot(x,y,color ='#FF8C00', lw= 1, linestyle='-', marker= 'o', markersize = 20, markerfacecolor='yellow', markeredgewidth=3, markeredgecolor = 'green') # marker customization
+ax.plot(x,y,color ='#FF8C00', lw= 2, linestyle='--')
+ax.set_xlim([0,1])
+ax.set_ylim([0,2])
+# ax.plot(x,x**2, label = 'X Squared')
+# ax.plot(x,x**3, label = 'X Cubed')
 
-ax.legend(loc=0)
+# ax.legend(loc=0)
 plt.show()
+
+
