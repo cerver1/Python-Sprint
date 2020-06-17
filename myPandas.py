@@ -53,4 +53,7 @@ df = pd.DataFrame(randn(6,2),hier_index,['A','B'])
 # df.loc['G2'].loc[2]['B'] grabbing nested data
 # df.xs(1, level= 'Num') to grab a specific crossection of data at a row and column
 
+
+
+
 print()
