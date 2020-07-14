@@ -5,4 +5,18 @@ def com(num1, num2):
         print("nice try")
 
 
-com(200,500)
+def core(num):
+    if num > 20:
+        print("nice try")
+    else:
+        print(num)
+
+
+def core1(num):
+    if num < 1:
+        print("nice try")
+    else:
+        print(num)
+
+
+core1(0)
